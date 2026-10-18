@@ -98,7 +98,9 @@ st.set_page_config(page_title="Electricity dashboard", page_icon="⚡", layout="
 st.title("⚡ Electricity consumption, price and bill")
 st.caption(
     "Hourly consumption and outdoor temperature joined with hourly spot prices "
-    "(cents/kWh). Bill = consumption × price."
+    "(cents/kWh). Bill = consumption × price. "
+    "Source code and data: "
+    "[github.com/Walid-Barakat/electricity-dashboard](https://github.com/Walid-Barakat/electricity-dashboard)"
 )
 
 data = load_data()

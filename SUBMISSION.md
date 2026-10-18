@@ -55,3 +55,12 @@ https://raw.githubusercontent.com/<USER>/<REPO>/main/electricity_app.py
 
 Alternative: submit `electricity_app.py` as a file in Moodle (it uses the CSV files when they are
 in the same folder as the script).
+
+## Live app (optional extra)
+
+The app is also deployed on Streamlit Community Cloud and opens directly in a browser:
+
+https://electricity-dashboard-8xb7paadydr96th2e8o3v5.streamlit.app/
+
+It redeploys automatically whenever changes are pushed to `main`. Submit it in Moodle next to
+the raw link above, not instead of it.

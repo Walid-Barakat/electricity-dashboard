@@ -1,8 +1,13 @@
 # Electricity consumption, price and bill dashboard
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://electricity-dashboard-8xb7paadydr96th2e8o3v5.streamlit.app/)
+
 Streamlit app that joins hourly electricity consumption and temperature data with hourly spot
 prices, calculates the hourly bill and visualises consumption, bill, average price and average
 temperature over a selected period, grouped daily, weekly or monthly.
+
+**Live app:** https://electricity-dashboard-8xb7paadydr96th2e8o3v5.streamlit.app/
+(hosted on Streamlit Community Cloud, redeploys automatically on every push to `main`)
 
 ## Files
 
