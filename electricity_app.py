@@ -5,7 +5,7 @@ Run locally:
     streamlit run electricity_app.py
 
 Run directly from GitHub (after uploading this script + both CSV files):
-    streamlit run https://raw.githubusercontent.com/<USER>/<REPO>/main/electricity_app.py
+    streamlit run https://raw.githubusercontent.com/Walid-Barakat/electricity-dashboard/main/electricity_app.py
 """
 
 from pathlib import Path
@@ -19,8 +19,7 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 # When the script is started from a raw.githubusercontent link, Streamlit
 # downloads only the script, so the CSV files are read from GitHub as well.
-# >>> Replace <USER> and <REPO> with your GitHub user name and repository. <<<
-GITHUB_RAW_BASE = "https://raw.githubusercontent.com/<USER>/<REPO>/main/"
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/Walid-Barakat/electricity-dashboard/main/"
 
 CONSUMPTION_FILE = "Electricity_consumption_2015-2025.csv"
 PRICE_FILE = "Electricity_price_2015-2025.csv"

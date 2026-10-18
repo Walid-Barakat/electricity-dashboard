@@ -20,10 +20,10 @@ pip install -r requirements.txt
 streamlit run electricity_app.py
 ```
 
-Directly from GitHub (set `GITHUB_RAW_BASE` in `electricity_app.py` to your repository first):
+Directly from GitHub:
 
 ```bash
-streamlit run https://raw.githubusercontent.com/<USER>/<REPO>/main/electricity_app.py
+streamlit run https://raw.githubusercontent.com/Walid-Barakat/electricity-dashboard/main/electricity_app.py
 ```
 
 Publishing and submission steps: see [SUBMISSION.md](SUBMISSION.md).
